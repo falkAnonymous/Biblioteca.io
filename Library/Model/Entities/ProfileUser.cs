@@ -15,11 +15,11 @@ namespace Library.Model.Entities
         public string _Email { get; private set; } = null;
         public string _Password { get; private set; } = null;
 
-        public ProfileUser(string username, DateTime birthDate, int age, string email, string password)
+        public ProfileUser(int id ,string username, DateTime birthDate, string email, string password)
         {
+            _Id = id;
             _UserName = username;
             _BirthDate = birthDate;
-            _Age = age;
             _Email = email;
             _Password = password;
         }
