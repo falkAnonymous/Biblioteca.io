@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Library
+namespace Library.Views
 {
-    public partial class FormMain : Form
+    public partial class FormUser : Form
     {
-        public FormMain()
+        public FormUser()
         {
             InitializeComponent();
         }
