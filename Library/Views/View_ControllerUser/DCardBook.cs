@@ -21,7 +21,12 @@ namespace Library.Views.View_ControllerUser
         public DCardBook()
         {
             InitializeComponent();
-            
+            this.lblDescription.Text = _Description;
+            this.lblTitle.Text = _Title;
+            this.pictureBook.Image = _Image;
+
+            panel3.Height = 10;
+            timer3.Start();
         }
 
         [Category("Settings")]
@@ -57,13 +62,9 @@ namespace Library.Views.View_ControllerUser
             get { return _Image; }
             set
             {
-
                 _Image = value;
-                if (_Image == null)
-                {
                     try
-                    {
-                        _Image = pictureBook.Image = Image.FromFile(path);
+                    {                       
                         pictureBook.Image = _Image;
                         pictureBook.SizeMode = PictureBoxSizeMode.Zoom;
                     }
@@ -72,7 +73,7 @@ namespace Library.Views.View_ControllerUser
 
                         MessageBox.Show("A conteceu um erro: " + e.Message);
                     }
-                }
+                
             }
         }
 
@@ -119,17 +120,14 @@ namespace Library.Views.View_ControllerUser
         }
         private void DCardBook_Load(object sender, EventArgs e)
         {
-            this.lblDescription.Text = _Description;
-            this.lblTitle.Text = _Title;
-            this.pictureBook.Image = _Image;
+            
 
             if (pictureBook.Image == null)
             {
                 pictureBook.Image = Images;
             }
 
-            panel3.Height = 10;
-            timer3.Start();
+            
         }
     }
 }
