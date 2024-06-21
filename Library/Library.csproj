@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>..\..\..\..\UI AX\Bunifu_UI_WinForms_5.0.3 [PeskTop.com]\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>..\..\..\..\UI AX\Bunifu_UI_WinForms_5.0.3 [PeskTop.com]\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\..\UI AX\Bunifu_UI_WinForms_5.0.3 [PeskTop.com]\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI2">
       <HintPath>..\..\..\..\UI AX\Guna.UI2.dll</HintPath>
@@ -118,6 +125,9 @@
     </Compile>
     <EmbeddedResource Include="Views\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormUser.resx">
+      <DependentUpon>FormUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\View_ControllerUser\DCardBook.resx">
       <DependentUpon>DCardBook.cs</DependentUpon>

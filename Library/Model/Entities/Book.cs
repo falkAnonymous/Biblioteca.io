@@ -20,7 +20,5 @@ namespace Library.Model.Entities
             _Description = description;
         }
 
-
-
     }
 }
