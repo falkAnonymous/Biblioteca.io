@@ -38,9 +38,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(839, 45);
+            this.panel1.Size = new System.Drawing.Size(831, 45);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -50,18 +50,18 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 45);
+            this.panel2.Location = new System.Drawing.Point(4, 50);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(176, 417);
+            this.panel2.Size = new System.Drawing.Size(176, 408);
             this.panel2.TabIndex = 1;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(176, 45);
+            this.panel3.Location = new System.Drawing.Point(180, 50);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(663, 417);
+            this.panel3.Size = new System.Drawing.Size(655, 408);
             this.panel3.TabIndex = 2;
             // 
             // FormUser
@@ -77,6 +77,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormUser";
+            this.Padding = new System.Windows.Forms.Padding(4, 5, 4, 4);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormUser";
             this.ResumeLayout(false);

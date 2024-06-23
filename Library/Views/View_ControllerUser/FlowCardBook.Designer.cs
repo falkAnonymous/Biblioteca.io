@@ -72,12 +72,14 @@
             // lblTitle
             // 
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTitle.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.LawnGreen;
             this.lblTitle.Location = new System.Drawing.Point(0, 128);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(188, 54);
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "label1";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBookF
             // 

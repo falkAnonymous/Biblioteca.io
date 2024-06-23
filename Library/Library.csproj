@@ -43,6 +43,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
       <HintPath>..\..\..\..\UI AX\Bunifu_UI_WinForms_5.0.3 [PeskTop.com]\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextBox">
+      <HintPath>..\..\..\..\UI AX\Bunifu_UI_WinForms_5.0.3 [PeskTop.com]\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2">
       <HintPath>..\..\..\..\UI AX\Guna.UI2.dll</HintPath>
     </Reference>
